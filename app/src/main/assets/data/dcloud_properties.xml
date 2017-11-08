@@ -1,0 +1,9 @@
+<properties>
+    <features>
+        <feature name="NativeUI" value="io.dcloud.feature.ui.nativeui.NativeUIFeatureImpl" />
+        <feature name="UI" value="io.dcloud.feature.ui.UIFeatureImpl">
+            <module name="Navigator" value="io.dcloud.feature.ui.NavView" />
+        </feature>
+        <feature name="Gallery" value="io.dcloud.js.gallery.GalleryFeatureImpl" />
+    </features>
+</properties>
